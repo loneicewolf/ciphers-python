@@ -21,7 +21,7 @@ You use (in your Cipher) a permuted, totally mixed up alphabet: uijaopqvwbghklmn
 
 A few test-rounds, to give you the idea..
 
-**Normal alphabet: abcdefghijklmnopqrstuvwxyz
+**Normal alphabet: abcdefghijklmnopqrstuvwxyz**
 **Mixed alphabet: uijaopqvwbghklmncxydefszrt**
 
 **Normal alphabet shifted with 3: abcdefghijklmnopqrstuvwxyz -> defghijklmnopqrstuvwxyzabc**
