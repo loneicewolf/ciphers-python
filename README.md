@@ -9,30 +9,32 @@ Key words: Cypher, Cipher, Cyphers, Ciphers, cryptography, encryption, obfuscati
 **Purpose of this git:**
 
 **Try to re-create some historic. Used ciphers, and slowly working them up to advanced, today-used crypto.** 
-**for example; S-boxes in today's encryption algorithms; and P-boxes, (both used in so-called SP-Networks)**
+**For example; S-boxes in today's encryption algorithms; and P-boxes, (both used in so-called SP-Networks)**
 
-a S-Box can be thought of a Substitution cipher. like Caesar. (example below): abc -> def
+a S-Box can be thought of a Substitution cipher. like Caesar. (Example below): abc -> def.
 
-or, another example of 1 simple (extremely simplified, I should add) can be a Alphabetical Substitution:
+Or, another example of 1 simple (extremely simplified, I should add) can be a Alphabetical Substitution:
 
-Instead of the normal alphabet (a-z); abcdefghijklmnopqrstuvwxyz
+Instead of the normal alphabet (a-z); abcdefghijklmnopqrstuvwxyz.
 
-you use (in your Cipher) a permuted, totally mixed up alphabet: uijaopqvwbghklmncxydefszrt
+You use (in your Cipher) a permuted, totally mixed up alphabet: uijaopqvwbghklmncxydefszrt
 
 A few test-rounds, to give you the idea..
 
-**normal alphabet: abcdefghijklmnopqrstuvwxyz
-**mixed alphabet: uijaopqvwbghklmncxydefszrt**
+**Normal alphabet: abcdefghijklmnopqrstuvwxyz
+**Mixed alphabet: uijaopqvwbghklmncxydefszrt**
 
-**normal alphabet shifted with 3: abcdefghijklmnopqrstuvwxyz -> defghijklmnopqrstuvwxyzabc**
+**Normal alphabet shifted with 3: abcdefghijklmnopqrstuvwxyz -> defghijklmnopqrstuvwxyzabc**
 
-**mixed alphabet shifted with 3: uijaopqvwbghklmncxydefszrt -> aopqvwbghklmncxydefszrtuij**
+**Mixed alphabet shifted with 3: uijaopqvwbghklmncxydefszrt -> aopqvwbghklmncxydefszrtuij**
 
-**enciphering the message "abc" with mixed alphabet, shift 5: abc -> wmf**
+**Enciphering the message "abc" with mixed alphabet, shift 5: abc -> wmf**
 
 *These kind of, working-up examples & projects I am right now doing.*
-*And, this will be a sub-project, which will be used in my publications, on my website. Go check it out, if you want!*
+*And, this will be a sub-project, which will be used in my publications. On my website.*
+*Go check it out, if you want!*
 
+-----------------------------------
 # List of complete implementations:
 -----------------------------------
 
@@ -40,4 +42,4 @@ A few test-rounds, to give you the idea..
 
 Thanks for showing interest!
 
-W.M
+*W.M*
