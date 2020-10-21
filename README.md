@@ -8,7 +8,8 @@ Key words: Cypher, Cipher, Cyphers, Ciphers, cryptography, encryption, obfuscati
 
 **Purpose of this git:**
 
-**Try to re-create some historic. Used ciphers, and slowly working them up to advanced, today-used crypto. **for example; S-boxes in today's encryption algorithms; and P-boxes, (both used in so-called SP-Networks)**
+**Try to re-create some historic. Used ciphers, and slowly working them up to advanced, today-used crypto.** 
+**for example; S-boxes in today's encryption algorithms; and P-boxes, (both used in so-called SP-Networks)**
 
 a S-Box can be thought of a Substitution cipher. like Caesar. (example below): abc -> def
 
@@ -20,7 +21,8 @@ you use (in your Cipher) a permuted, totally mixed up alphabet: uijaopqvwbghklmn
 
 A few test-rounds, to give you the idea..
 
-**normal alphabet: abcdefghijklmnopqrstuvwxyz **mixed alphabet: uijaopqvwbghklmncxydefszrt**
+**normal alphabet: abcdefghijklmnopqrstuvwxyz
+**mixed alphabet: uijaopqvwbghklmncxydefszrt**
 
 **normal alphabet shifted with 3: abcdefghijklmnopqrstuvwxyz -> defghijklmnopqrstuvwxyzabc**
 
@@ -28,12 +30,13 @@ A few test-rounds, to give you the idea..
 
 **enciphering the message "abc" with mixed alphabet, shift 5: abc -> wmf**
 
-These kind of, working-up examples & projects I am right now doing.
+*These kind of, working-up examples & projects I am right now doing.*
+*And, this will be a sub-project, which will be used in my publications, on my website. Go check it out, if you want!*
 
-And, this will be a sub-project, which will be used in my publications, on my website. Go check it out, if you want!
+# List of complete implementations:
+-----------------------------------
 
-List of complete implementations:
-[x] Alphabetical Substitution
+* [x] Alphabetical Substitution
 
 Thanks for showing interest!
 
