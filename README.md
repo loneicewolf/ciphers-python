@@ -12,7 +12,7 @@ List of implementations:
 S-boxes in todays encryption algorithms;
 and P-boxes, (both used in so-called SP-Networks)
 
-a S-Box can be thought of a substituion cipher. like Caeser. (example below):
+a S-Box can be thought of a Substitution cipher. like Caeser. (example below):
 abc -> def
 
 or, another example of 1 simple (extremely simplified, **I should add**) can be a Alphabetical Substitution:
