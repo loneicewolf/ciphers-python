@@ -25,8 +25,8 @@ uijaopqvwbghklmncxydefszrt
 
 *A few test-rounds, to give you the idea..*
 
-**normal alphabet: abcdefghijklmnopqrstuvwxyz**
-**mixed  alphabet: uijaopqvwbghklmncxydefszrt**
+**normal alphabet: abcdefghijklmnopqrstuvwxyz
+**mixed  alphabet: uijaopqvwbghklmncxydefszrt
 
 **normal alphabet *shifted* with 3:
 abcdefghijklmnopqrstuvwxyz -> defghijklmnopqrstuvwxyzabc
