@@ -11,7 +11,7 @@ Key words: Cypher, Cipher, Cyphers, Ciphers, cryptography, encryption, obfuscati
 **Try to re-create some historic. Used ciphers, and slowly working them up to advanced, today-used crypto.** 
 **For example; S-boxes in today's encryption algorithms; and P-boxes, (both used in so-called SP-Networks)**
 
-a S-Box can be thought of a Substitution cipher. like Caesar. (Example below): abc -> def.
+An S-Box can be thought of a Substitution cipher. like Caesar. (Example below): abc -> def.
 
 Or, another example of 1 simple (extremely simplified, I should add) can be a Alphabetical Substitution:
 
