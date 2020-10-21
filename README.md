@@ -50,6 +50,7 @@ A few test-rounds, to give you the idea..
 ---------------------------------------------------
 # List of Incomplete (In progress) implementations:
 ---------------------------------------------------
+* []  Lorenz SZ // 0.01 % of 100% Done
 
 * [] Trithemius cipher.    // Coming very very soon! 50% of 100% done!
 * [] Polyalphabetic cipher // Kinda like Alphabetical Subtitution cipher.
