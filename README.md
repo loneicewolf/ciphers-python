@@ -4,6 +4,19 @@
 | Cryptography In Python (Using Jupyter-Notebooks)
 --------------------------------------------------
 
+PREFACE:
+
+This is my first git, or one of the very first anyway.
+Because of that, it's not that neatly sorted, and built up. So, it could be errors(language, etc).
+I'm fixing those, but if you find any - or want to improve/add/change something, contact me! 
+I appreciate it!
+
+
+
+*W.M*
+
+
+
 Historical and Modern Ciphers - implemented in Python using Jupyter Notebooks!
 Key words: Cypher, Cipher, Cyphers, Ciphers, cryptography, encryption, obfuscation, enciphering, deciphering
 
