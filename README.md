@@ -51,10 +51,14 @@ A few test-rounds, to give you the idea..
 # List of Incomplete (In progress) implementations:
 ---------------------------------------------------
 * []  Lorenz SZ // 30.8 % of 100% Done
+* []  Book Cipher // 99.98 % of 100% Done
+* []  Runic Cipher // 92.6% % of 100% Done
 
-* [] Trithemius cipher.    // Coming very very soon! 50% of 100% done!
-* [] Polyalphabetic cipher // Kinda like Alphabetical Subtitution cipher.
-* [] Transposition cipher  // Kinda like Alphabetical Substitution cipher too actually, e.g Vigenere cipher.
+* [] Trithemius cipher.    // Coming very very soon! 60.7% of 100% done!
+* [] Polyalphabetic cipher // Just begun
+* [] Transposition cipher // Just begun
+* [] Matrix  / Column major order / rotation - Cipher // Just begun
+
 
 
 
@@ -71,6 +75,16 @@ https://en.wikipedia.org/wiki/Transposition_cipher
 
 https://en.wikipedia.org/wiki/Bijective
 - "In mathematics, a bijection, bijective function, one-to-one correspondence, or invertible function, is a function between the elements of two sets, where each element of one set is paired with exactly one element of the other set, and each element of the other set is paired with exactly one element of the first set."
+
+
+-----------------------------------
+# List of my upcoming publications:
+-----------------------------------
+
+
+* Steganography Project: <Title still needs a decision>  Exact Announce Date: 2021-02-15  (Written In Swedish Time & Date)
+* Onion-Pi - Updated 2020 Version (Which, also was my last-year in high school Scientific Writing project) Time: ~2 weeks
+* Arch Linux GPU-Pass-trough[Done]: Time: 18 July, 2020. Available at:  https://github.com/loneicewolf/Arch-GPU-PassTrough 
 
 Thanks for showing interest!
 
