@@ -63,7 +63,7 @@ A few test-rounds, to give you the idea..
 *Sorted according to order: Newest to oldest, from top to bottom.*
 * [x] Alphabetical Substitution
 * [x] Runic Cipher
-
+* [x] **BOOK CIPHER** (**FINALLY**)
 
 ---------------------------------------------------
 # List of Incomplete (In progress) implementations:
