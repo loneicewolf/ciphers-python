@@ -69,7 +69,7 @@ A few test-rounds, to give you the idea..
 # List of Incomplete (In progress) implementations:
 ---------------------------------------------------
 * []  Lorenz SZ // 30.8 % of 100% Done
-* []  Book Cipher // 99% % of 100% Done
+* **[X]**  Book Cipher **DONE** **[X]**
 * []  Trithemius cipher.    // Coming very very soon! 60.7% of 100% done!
 * []  Polyalphabetic cipher // Just begun
 * []  Transposition cipher // Just begun
