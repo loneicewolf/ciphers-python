@@ -107,7 +107,7 @@ https://en.wikipedia.org/wiki/Bijective - "In mathematics, a bijection, bijectiv
 
 
 * Steganography Project: <Title still needs a decision>  Exact Announce Date: 2021-02-15  (Written In Swedish Time & Date)
-* Onion-Pi - Updated 2020 Version (Which, also was my last-year in high school Scientific Writing project) Time: ~2 weeks
+* Onion-Pi - Updated 2020 Version (Which, also was my last-year in high school Scientific Writing project) Time: ~2 weeks **NEARLY DONE**
 * Arch Linux GPU-Pass-trough[Done]: Time: 18 July, 2020. Available at:  https://github.com/loneicewolf/Arch-GPU-PassTrough 
 
 Thanks for showing interest!
