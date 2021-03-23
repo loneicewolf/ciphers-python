@@ -68,11 +68,11 @@ A few test-rounds, to give you the idea..
 ---------------------------------------------------
 # List of Incomplete (In progress) implementations:
 ---------------------------------------------------
-* []  Lorenz SZ // 30.8 % of 100% Done
+* []  Lorenz SZ // 91.2 % of 100% Done <-- VERY soon done. Will probably get done next week!
 * **[X]**  Book Cipher **DONE** **[X]**
 * []  Trithemius cipher.    // Coming very very soon! 60.7% of 100% done!
-* []  Polyalphabetic cipher // Just begun
-* []  Transposition cipher // Just begun
+* [/]  Polyalphabetic cipher // Just begun soon done. 85% of 100%!
+* []  Transposition cipher  // Just begun
 
 
 
@@ -80,7 +80,7 @@ A few test-rounds, to give you the idea..
 | -----------------------------------
 *This part is just for research-code (Not actual anything optimal, or "good" programs)*
 *So, do not use these in production code, these here - is **ONLY** for education/learning*
-* []  Matrix  / Column major order / rotation - Cipher // Just begun
+* [\] VERY soon done! (This is, like 99% done!)  Matrix  / Column major order / rotation - Cipher // Just begun
 
 
 
