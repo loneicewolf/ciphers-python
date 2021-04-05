@@ -113,3 +113,5 @@ https://en.wikipedia.org/wiki/Bijective - "In mathematics, a bijection, bijectiv
 Thanks for showing interest!
 
 *W.M*
+
+Note: Due to corona and some other complicaitons - some of these was delayed. Contact me for any questions.
