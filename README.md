@@ -95,23 +95,3 @@ https://en.wikipedia.org/wiki/Transposition_cipher - "In cryptography, a **trans
 
 https://en.wikipedia.org/wiki/Bijective - "In mathematics, a bijection, bijective function, one-to-one correspondence, or invertible function, is a function between the elements of two sets, where each element of one set is paired with exactly one element of the other set, and each element of the other set is paired with exactly one element of the first set."
 
-
-
-
-**Slight off topic**
-| -----------------------------------
-
------------------------------------
-# List of my upcoming publications:
------------------------------------
-
-
-* Steganography Project: <Title still needs a decision>  Exact Announce Date: 2021-02-15  (Written In Swedish Time & Date)
-* Onion-Pi - Updated 2020 Version (Which, also was my last-year in high school Scientific Writing project) Time: Not yet done, will take a few weeks more. Sorry for the inconvenience **NEARLY DONE**
-* Arch Linux GPU-Pass-trough[Done]: Time: 18 July, 2020. Available at:  https://github.com/loneicewolf/Arch-GPU-PassTrough 
-
-Thanks for showing interest!
-
-*W.M*
-
-Note: Due to corona and some other complicaitons - some of these was delayed. Contact me for any questions.
