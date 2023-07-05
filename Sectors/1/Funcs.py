@@ -99,6 +99,11 @@ splitlines=0
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~
 # GUI
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+# GUI
 AZ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 def cipher_caesar_AZ(s="ABCDEFGHIJKLMNOPQRSTUVWXYZ",k=3): return(''.join([ chr(ord('A')+(ord(c)-ord('A')+k)%26) for c in s]))
 def cipher_caesar_az(s="abcdefghijklmnopqrstuvwxyz",k=3): return(''.join([ chr(ord('a')+(ord(c)-ord('a')+k)%26) for c in s]))
@@ -115,7 +120,9 @@ from IPython.display import display
 @widgets.interact
 def f(k=(0,26),m="ABCDEFGHIJKLMNOPQRSTUVWXYZ",choice_1=[0,1]):
     ctx_1=cipher_caesar_BRUTE(m)
-    if choice_1 == 0: for i in ctx_1:print(i)
-    if choice_1 == 1: for i in ctx_1: print( cipher_caesar_AZ(i,k) )
+    if choice_1 == 0:
+        for i in ctx_1:print(i)
+    if choice_1 == 1:
+        for i in ctx_1: print( cipher_caesar_AZ(i,k) )
     
-#~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~#~~~~~~~~~~~~~~~~~~~~~~~~~
