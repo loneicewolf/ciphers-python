@@ -38,7 +38,10 @@ def cipher_caesar_az(s="abcdefghijklmnopqrstuvwxyz",k=3): return(''.join([ chr(o
 #cipher_caesar_az()     # defghijklmnopqrstuvwxyzabc
 
 
-
+def ASUB(m,A,B):
+    o   = m.maketrans(A,B)
+    r   = m.translate(o)
+    return(r)
 
 
 
@@ -56,6 +59,14 @@ cipher_caesar_BRUTE()
 # 'ZABCDEFGHIJKLMNOPQRSTUVWXY']
 
 
+
+
+
+
+
+
+def InsertChar_each(s="ABCDEFGHIJKLMNOPQRSTUVWXYZ",InCh=' '):return(InCh.join(s))
+InsertChar_each("abcxyzdef")#'a b c x y z d e f'
 
 
 
