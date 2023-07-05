@@ -1,4 +1,14 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~
+AZ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+az="abcdefghijklmnopqrstuvwxyz"
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~
 def az_List():return         [chr(i) for i in range(ord('a'),ord('z')+1)]
 def az_Str(): return ''.join([chr(i) for i in range(ord('a'),ord('z')+1)])
 def AZ_List():return         [chr(i) for i in range(ord('A'),ord('Z')+1)]
@@ -14,6 +24,31 @@ def cipher_caesar_az(s="abcdefghijklmnopqrstuvwxyz",k=3): return(''.join([ chr(o
 #cipher_caesar_az(az,3) # defghijklmnopqrstuvwxyzabc
 #cipher_caesar_AZ()     # DEFGHIJKLMNOPQRSTUVWXYZABC
 #cipher_caesar_az()     # defghijklmnopqrstuvwxyzabc
+
+
+
+
+
+
+def cipher_caesar_BRUTE(s="ABCDEFGHIJKLMNOPQRSTUVWXYZ",AZ_or_az='AZ'):
+    if AZ_or_az == 'AZ':return[cipher_caesar_AZ(s,k) for k in range(0,26)]
+    if AZ_or_az == 'az':return[cipher_caesar_az(s,k) for k in range(0,26)]
+cipher_caesar_BRUTE()
+# by def. it outputs:
+#['ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+# 'BCDEFGHIJKLMNOPQRSTUVWXYZA',
+# 'CDEFGHIJKLMNOPQRSTUVWXYZAB',
+# ...
+# 'XYZABCDEFGHIJKLMNOPQRSTUVW',
+# 'YZABCDEFGHIJKLMNOPQRSTUVWX',
+# 'ZABCDEFGHIJKLMNOPQRSTUVWXY']
+
+
+
+
+
+
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -46,3 +81,13 @@ splitlines=0
 #file_text(myfile,splitlines=1)#['LINE 1', 'LINE 2', 'LINE 3']
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
