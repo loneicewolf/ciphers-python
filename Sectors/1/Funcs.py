@@ -113,9 +113,9 @@ import matplotlib.pyplot as plt
 from IPython.display import display
 %matplotlib inline
 @widgets.interact
-def f(k=(0,26),m="ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
+def f(k=(0,26),m="ABCDEFGHIJKLMNOPQRSTUVWXYZ",choice_1=[0,1]):
     ctx_1=cipher_caesar_BRUTE(m)
-    for i in ctx_1:
-        print( cipher_caesar_AZ(i,k) )
+    if choice_1 == 0: for i in ctx_1:print(i)
+    if choice_1 == 1: for i in ctx_1: print( cipher_caesar_AZ(i,k) )
     
 #~~~~~~~~~~~~~~~~~~~~~~~~~
