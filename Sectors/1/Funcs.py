@@ -1,8 +1,20 @@
+# Note. this was done in a Jupyter Notebook.
+##
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+#   
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~
 AZ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 az="abcdefghijklmnopqrstuvwxyz"
-
-
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -85,9 +97,25 @@ splitlines=0
 
 
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~
+# GUI
+AZ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+def cipher_caesar_AZ(s="ABCDEFGHIJKLMNOPQRSTUVWXYZ",k=3): return(''.join([ chr(ord('A')+(ord(c)-ord('A')+k)%26) for c in s]))
+def cipher_caesar_az(s="abcdefghijklmnopqrstuvwxyz",k=3): return(''.join([ chr(ord('a')+(ord(c)-ord('a')+k)%26) for c in s]))
+def cipher_caesar_BRUTE(s="ABCDEFGHIJKLMNOPQRSTUVWXYZ",AZ_or_az='AZ'):
+    if AZ_or_az == 'AZ':return[cipher_caesar_AZ(s,k) for k in range(0,26)]
+    if AZ_or_az == 'az':return[cipher_caesar_az(s,k) for k in range(0,26)]
 
-
-
-
-
-
+import ipywidgets as widgets
+from ipywidgets import HBox, VBox
+import numpy as np
+import matplotlib.pyplot as plt
+from IPython.display import display
+%matplotlib inline
+@widgets.interact
+def f(k=(0,26),m="ABCDEFGHIJKLMNOPQRSTUVWXYZ"):
+    ctx_1=cipher_caesar_BRUTE(m)
+    for i in ctx_1:
+        print( cipher_caesar_AZ(i,k) )
+    
+#~~~~~~~~~~~~~~~~~~~~~~~~~
