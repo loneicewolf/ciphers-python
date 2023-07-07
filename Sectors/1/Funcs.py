@@ -11,6 +11,9 @@
 
 
 
+import base64, binascii
+
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~
 AZ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -66,10 +69,25 @@ cipher_caesar_BRUTE()
 
 
 def InsertChar_each(s="ABCDEFGHIJKLMNOPQRSTUVWXYZ",InCh=' '):return(InCh.join(s))
-InsertChar_each("abcxyzdef")#'a b c x y z d e f'
+#InsertChar_each("abcxyzdef")#'a b c x y z d e f'
 
 
 
+
+def P(c='-',n=50):return(print(c*n))
+def Bys(s="ABC"):return(bytes(s,'UTF8'))
+def HX(s="ABC",E_D='E',out='s'):
+    if E_D == 'E' and out == 's':return(binascii.hexlify(Bys(s)).decode())
+    if E_D == 'E' and out == 'b':return(binascii.hexlify(Bys(s)))
+    if E_D == 'D' and out == 's':return(binascii.unhexlify(Bys(s)).decode())
+    if E_D == 'D' and out == 'b':return(binascii.unhexlify(Bys(s)))
+#
+def B6(s="ABC",E_D='E',out='s'):
+    if E_D == 'E' and out == 's':return(base64.b64encode(Bys(s)).decode())
+    if E_D == 'E' and out == 'b':return(binascii.hexlify(Bys(s)))
+    if E_D == 'D' and out == 's':return(base64.b64decode(Bys(s)).decode())
+    if E_D == 'D' and out == 'b':return(base64.b64decode(Bys(s)))
+#
 
 
 
