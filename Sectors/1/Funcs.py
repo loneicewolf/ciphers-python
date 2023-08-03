@@ -23,6 +23,10 @@ def ASUB(m,A,B):
 
 def Bys(s="ABC"):return(bytes(s,'UTF8'))
 
+
+
+
+# Note, the 'b' below (out == 'b' ..) means the b'' output. 
 def HX(s="ABC",E_D='E',out='s'):
     if E_D == 'E' and out == 's':return(binascii.hexlify(Bys(s)).decode())
     if E_D == 'E' and out == 'b':return(binascii.hexlify(Bys(s)))
@@ -36,6 +40,8 @@ def B6(s="ABC",E_D='E',out='s'):
     if E_D == 'D' and out == 's':return(base64.b64decode(Bys(s)).decode())
     if E_D == 'D' and out == 'b':return(base64.b64decode(Bys(s)))
 #
+
+
 def file_text(in_file="test.txt",splitlines=0):
     with open(in_file, 'rt') as f:
         text=f.read()
